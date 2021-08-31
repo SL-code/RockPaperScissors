@@ -6,11 +6,11 @@ A small rock paper scissor game that I have made due to boredom.
 
 ## Buiding the game
 ### With ncurses
-cd RockPaperScissors
+cd RockPaperScissors    
 cmake .
 
 ### With standard C++
-Delete the em{-DNCURSES} flag from  CMAKE_CXX_FLAGS  then run 
+Delete the ***-DNCURSES*** flag from  CMAKE_CXX_FLAGS  then run   
 cmake .
 
 #### The project depends on the ncurses library (but can be built without it).

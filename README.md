@@ -6,14 +6,16 @@ A small rock paper scissor game that I have made due to boredom.
 
 ## Buiding the game
 ### With ncurses
-g++ rps.cpp -o rps -lncurses -I. -DNCURSES
+cd RockPaperScissors
+cmake .
 
 ### With standard C++
-g++ rps.cpp -o rps -I.
+Delete the em{-DNCURSES} flag from  CMAKE_CXX_FLAGS  then run 
+cmake .
 
 #### The project depends on the ncurses library (but can be built without it).
 
 
 
 
-#### TO DO: I might add a CMakeLists.txt for better portability.
+
